@@ -1,5 +1,7 @@
-var io = require('socket.io').listen(3001);
-var chat1 = io.of('/chat1').on('connection', function (socket)
+var io = require('socket.io').listen(process.env.PORT || 5000);
+var chat1 = io
+    .of('/chat1')
+    .on('connection', function (socket)
     {
         //console.log('connection chat1');
 
@@ -13,7 +15,9 @@ var chat1 = io.of('/chat1').on('connection', function (socket)
         });
     });
 
-var chat2 = io.of('/chat2').on('connection', function (socket)
+var chat2 = io
+    .of('/chat2')
+    .on('connection', function (socket)
     {
         //console.log('connection chat2');
 
