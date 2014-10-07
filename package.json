@@ -3,24 +3,22 @@
     "version": "0.0.1",
     "description": "brillgame",
     "main": "index.js",
-    "scripts": {
+    "scripts":
+    {
         "start": "node index.js"
     },
     "dependencies":
     {
         "socket.io": "~0.9.6"
     },
-    "engines": {
+    "engines":
+    {
         "node": "0.10.x"
     },
-    "repository": {
+    "repository":
+    {
         "type": "git",
         "url": "https://github.com/heroku/node-js-getting-started"
     },
-    "keywords": [
-        //"node",
-        //"heroku",
-        //"express"
-    ],
     "license": "MIT"
 }
