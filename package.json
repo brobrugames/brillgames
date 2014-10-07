@@ -1,12 +1,10 @@
 {
     "name": "brillgames",
     "version": "0.0.2",
-    "private": true,
     "dependencies": {
         "socket.io": "~0.9.6"
     },
     "engines": {
-        "node": "0.10.x",
-        "npm": "1.4.x"
+        "node": "0.10.x"
     }
 }
