@@ -1,24 +1,11 @@
 {
     "name": "brillgames",
     "version": "0.0.1",
-    "description": "brillgame",
-    "main": "index.js",
-    "scripts":
-    {
-        "start": "node index.js"
-    },
-    "dependencies":
-    {
+    "dependencies": {
         "socket.io": "~0.9.6"
     },
-    "engines":
-    {
+    "engines": {
         "node": "0.10.x",
         "npm": "1.3.x"
-    },
-    "repository":
-    {
-        "type": "git",
-        "url": "https://github.com/heroku/node-js-getting-started"
     }
 }
