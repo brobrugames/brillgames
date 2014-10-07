@@ -1,5 +1,4 @@
 var io = require('socket.io').listen(3001);
-
 var chat1 = io
     .of('/chat1')
     .on('connection', function (socket)
