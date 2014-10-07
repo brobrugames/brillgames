@@ -1,6 +1,21 @@
 {
     "name": "brillgames",
-    "version": "0.0.3",
-    "dependencies": {"socket.io": "~0.9.6"},
-    "engines": {"node": "0.10.x"}
+    "version": "0.0.4",
+    "description": "desc",
+    "main": "index.js",
+    "dependencies": {
+        "socket.io": "~0.9.16"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "brobru",
+    "license": "ISC",
+    "engines": {
+        "node": "0.10.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@heroku.com:brillgames.git"
+    }
 }
