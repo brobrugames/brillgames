@@ -31,3 +31,5 @@ var chat2 = io
             console.log(_data);
         });
     });
+
+var foo;
